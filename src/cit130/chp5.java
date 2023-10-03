@@ -35,7 +35,7 @@ public class chp5 {
 	
 	else if (choice == 2) { 
 
-		
+		operationsOnIntegers(scanner);
         }
 //         break;
 //	case 3:
@@ -46,6 +46,7 @@ public class chp5 {
  
 } while (choice != 3);
 scanner.close();
+System.out.println("Have a good night");
 	}
 /* The distance a vehicle travels can be calculated using the following simple formula:
 	distance = speed * time
@@ -56,17 +57,39 @@ scanner.close();
 	double speed;
 	int hours;	
 	double time; 
+	
 	System.out.println("Car travel data \n");
 		System.out.println("How fast is the car going ? (Must be between 1mph to 120mph) \n");
 		
 
 		speed = scanner.nextDouble();
+		while (speed < 1 || speed > 120) {
+            System.out.println("Invalid speed. Please enter a value between 1 and 120.");
+            System.out.print("Enter the speed of the car in miles per hour (1-120): ");
+            speed = scanner.nextDouble();
+		}
+		
 //		System.out.println(speed);
+		
+		
+		
+	
+		
+//do not allow the user to enter a negative value for hours 
 		
 		System.out.println("How many hours is it traveling? \n");
 		time = scanner.nextInt();
 		
-	//	System.out.printf("%.2f%nmiles \n",  hours);
+		while (time < 0) {
+            System.out.println("Invalid time. Please enter a positive value.");
+            System.out.print("Enter the time traveled in hours (positive value): ");
+            time = scanner.nextInt();
+    		
+        }
+		
+		
+		
+//	System.out.printf("%.2f%nmiles \n",  hours);
 		System.out.printf("%.2f%nmph \n", speed );
 		
 	
@@ -74,10 +97,10 @@ scanner.close();
 		System.out.println("Hour\tDistance");
         System.out.println("-----------------");
         for (int hour = 1; hour <= time; hour++) {
-            // Calculate the distance using the formula
+// Calculate the distance using the formula
         double distance = speed * hour;
-            // Display the hour and the distance
-            System.out.println(hour + "\t" + distance);
+// Display the hour and the distance
+            System.out.println(hour + "\t" + distance +" miles ");
         }
         
         
@@ -86,6 +109,19 @@ scanner.close();
 	
 	
 public static void operationsOnIntegers(Scanner scanner) { 
+	// Write a program that reads a set of integers and process them according to the following requirements: Use a sentinel value to end the data entry.
+	
+	
+System.out.println("Process a set of Integers: \n");
+System.out.println("To end the calculartor, enter -99 \n");
+
+
+
+
+	
 }
+
+
+
 }
 
