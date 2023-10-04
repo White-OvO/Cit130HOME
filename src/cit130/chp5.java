@@ -1,17 +1,7 @@
 package cit130;
 
 import java.util.Scanner;
-/*
- * 
- * 
- * Assignment: Write a Java program to display a menu of 3 options/parts. Option 1 processes
-travel data. Option 2 processes operations on integers. Option 3 is used to exit the program. Any
-other option should result in asking again. You must have a continuous loop allowing the user to
-select from the list of options
- * 
- * 
- * 
- */
+
 public class chp5 {
 	public static void main(String[] args) { 
 
@@ -41,7 +31,9 @@ public class chp5 {
 //	case 3:
           else if (choice != 3) { 
          System.out.println("Not a valid key \n" );
-     
+         
+         System.out.println(" HElLo : "+ "Enter 1 to process travel data, enter 2 to processes operations on integers, 3 to Exit: \n");
+ 		
           }
  
 } while (choice != 3);
@@ -110,18 +102,93 @@ System.out.println("Have a good night");
 	
 public static void operationsOnIntegers(Scanner scanner) { 
 	// Write a program that reads a set of integers and process them according to the following requirements: Use a sentinel value to end the data entry.
-	
-	
-System.out.println("Process a set of Integers: \n");
-System.out.println("To end the calculartor, enter -99 \n");
+//	int integer ;
+//	
+//System.out.println("Process a set of Integers: \n");
+//System.out.println("To end the calculartor, enter -99 \n");
+//System.out.println("Please enter an integer \n");
+//
+//integer = scanner.nextInt();
+//while (integer != -99) { 
+//    System.out.println("You entered: " + integer + "\n");
+//    System.out.println("Please enter another integer or -99 to end \n");
+//    integer = scanner.nextInt();
+//} 
+//
+//System.out.println("That is all for today \n");
+//} 
+//	
+//	
+
+
+int sum = 0;
+int count = 0;
+
+int integer ;
 
 
 
 
-	
+int even = 0;
+int odd = 0;
+int countOdd = 0;
+int countEven = 0;
+System.out.println("Process a set of Integers\n"
+		+ "To end the calculation, enter -99\n"
+		+ "Please enter an integer");
+//while (integer != -99) { 
+//	integer = scanner.nextDouble();
+//	if (integer != -99) { 
+//		sum += integer;
+//		count++;
+try {
+integer = scanner.nextInt();
+
+while (integer != -99) { 
+	  sum += integer;
+    count++;
+    
+    if (integer % 2 == 0) {
+        even += integer;
+        countEven++;
+        System.out.println("Even");
+        
+        
+    } else {
+        odd += integer;
+        countOdd++;
+        System.out.println("Odd");
+    }
+	  
+    System.out.println("Please enter another integer or -99 to end");
+    integer = scanner.nextInt();
+} 
+
+
+} catch (Exception e) {
+    // print an error message if an exception occurs
+    System.out.println("Invalid input. Please enter only integers.");
+
 }
 
 
 
+// loop of evens and odds
+//sum += integer;
+//sum += count_odd;
+
+//double evenAverage = even/countEven;
+//int evenAverage = even / countEven;
+double evenAverage = (double) even / countEven;
+double oddAverage = (double) odd / countOdd;
+double allValues = (double ) sum / count;
+
+System.out.printf("sum of all Even values : %d\n", even );
+System.out.printf("Sum of all Odd values : %d\n", odd);
+System.out.printf("Average of Even values : %.2f \n",evenAverage);
+System.out.printf("Average of odd values : %.2f \n", oddAverage);
+System.out.printf("Average of All values : %.2f \n", allValues);
+
+}
 }
 
