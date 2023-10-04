@@ -12,6 +12,9 @@ public class chp5 {
 //	int choice = scanner.nextInt();
 
 	int choice;
+	boolean repeat = true;
+	boolean repeat2 = false;
+	
 		do { 
 			choice = scanner.nextInt();
 
@@ -32,12 +35,31 @@ public class chp5 {
           else if (choice != 3) { 
          System.out.println("Not a valid key \n" );
          
-         System.out.println(" HElLo : "+ "Enter 1 to process travel data, enter 2 to processes operations on integers, 3 to Exit: \n");
+         System.out.println(" HelLo : "+ "Enter 1 to process travel data, enter 2 to processes operations on integers, 3 to Exit: \n");
  		
           }
+
+	
+
+    
  
+//    if answer =  !99 { 
+    	
+//    }
+//    
+//    if (answer.equalsIgnoreCase("Y")) { // compare the input with the sentinel value
+//       repeat = false; // update the loop condition
+//    }
+//    if (answer.equalsIgnoreCase("N")) { // compare the input with the sentinel value
+//        repeat2 = false; // update the loop condition
+//    }
+    
+    
+   // System.out.println(" HelLo : "+ "Enter 1 to process travel data, enter 2 to processes operations on integers, 3 to Exit: \n");
+	
+
+    
 } while (choice != 3);
-scanner.close();
 System.out.println("Have a good night");
 	}
 /* The distance a vehicle travels can be calculated using the following simple formula:
@@ -45,6 +67,13 @@ System.out.println("Have a good night");
 			• Ask the user for the speed of a car and the time (number of hours traveled).
 			• Display the distance traveled for every hour (HINT: your loop counter variable can keep
 */ 
+	
+
+	
+	
+	
+	
+	
 	public static void processesTravelData(Scanner scanner) { 
 	double speed;
 	int hours;	
@@ -94,7 +123,7 @@ System.out.println("Have a good night");
 // Display the hour and the distance
             System.out.println(hour + "\t" + distance +" miles ");
         }
-        
+        System.out.println(" HelLo : "+ "Enter 1 to process travel data, enter 2 to processes operations on integers, 3 to Exit: \n");
         
         
 	}
@@ -189,6 +218,11 @@ System.out.printf("Average of Even values : %.2f \n",evenAverage);
 System.out.printf("Average of odd values : %.2f \n", oddAverage);
 System.out.printf("Average of All values : %.2f \n", allValues);
 
+
+
+System.out.println(" HelLo : "+ "Enter 1 to process travel data, enter 2 to processes operations on integers, 3 to Exit: \n");
+	
 }
+
 }
 
