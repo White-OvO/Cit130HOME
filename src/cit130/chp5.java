@@ -1,6 +1,29 @@
 package cit130;
 
+
+
+
+
 import java.util.Scanner;
+
+
+
+
+
+
+
+
+
+
+//@author ChristopherGonzalez
+//@note I pledge my word of honor that I have abided by the CSN Academic Integrity Policy
+//while completing this assignment
+//@file NaserHeraviCIT130Assignment5.java
+//@version 2023-09
+
+
+
+
 
 public class chp5 {
 	public static void main(String[] args) { 
