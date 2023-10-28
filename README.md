@@ -35,6 +35,8 @@ cit 130 chp 3
 
 <h1> Chp5 </h1>
 <img width="717" alt="Screenshot 2023-10-04 at 2 05 57 AM" src="https://github.com/White-OvO/Cit130HOME/assets/120700219/757afdb3-af2c-4e60-a71f-836293d0d3cc">
-# HOMEcit130HW
-# HOMEcit130HW
-# HOMEcit130HW
+
+
+<h1> chp6 code program output</h1>
+
+<img width="529" alt="Screenshot 2023-10-28 at 5 24 32 AM" src="https://github.com/White-OvO/Cit130HOME/assets/120700219/1df4b49c-467c-4f62-b39a-3f62ca2462e3">
