@@ -40,3 +40,7 @@ cit 130 chp 3
 <h1> chp6 code program output</h1>
 
 <img width="529" alt="Screenshot 2023-10-28 at 5 24 32 AM" src="https://github.com/White-OvO/Cit130HOME/assets/120700219/1df4b49c-467c-4f62-b39a-3f62ca2462e3">
+
+<h1> CHP07 HWW</h1>
+![Screen Shot 2023-11-03 at 6 52 14 AM](https://github.com/White-OvO/Cit130HOME/assets/120700219/eb1bb376-e294-49f8-8107-a2aa80f0668d)
+
