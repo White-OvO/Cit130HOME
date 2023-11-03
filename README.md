@@ -41,7 +41,7 @@ cit 130 chp 3
 
 <img width="529" alt="Screenshot 2023-10-28 at 5 24 32 AM" src="https://github.com/White-OvO/Cit130HOME/assets/120700219/1df4b49c-467c-4f62-b39a-3f62ca2462e3">
 
-<h1> CHP07 HWW</h1>
+<h1> CHP07 HW</h1>
 <img width="311" alt="Screenshot 2023-11-03 at 10 41 25 AM" src="https://github.com/White-OvO/Cit130HOME/assets/120700219/d556cc4b-e761-4d5d-99f8-b95729ce258f">
 
 
